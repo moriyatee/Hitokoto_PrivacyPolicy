@@ -1,0 +1,29 @@
+# GitHub Pages configuration for Hitokoto Privacy Policy
+title: Hitokoto Privacy Policy
+description: Privacy Policy for Hitokoto - 1行日記アプリ
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+header_pages:
+  - index.html
+  - index-en.html
+  - privacy-policy-ja.html
+  - privacy-policy.html
+  - terms.html
+  - terms-en.html
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - vendor
+  - .bundle
+  - Gemfile
+  - Gemfile.lock

@@ -5,6 +5,9 @@ theme: minima
 markdown: kramdown
 highlighter: rouge
 
+# Custom domain
+url: "https://hitokoto.moriyatee.com"
+
 # Navigation
 header_pages:
   - index.html
